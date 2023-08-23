@@ -8,7 +8,7 @@ import { navLinks } from "../constants/index.js";
 const Navbar = () => {
     return (
         <header className="padding-x py-8 absolute z-10 w-full">
-            <nav className="flex items-center justify-between w-full">
+            <nav className="max-container flex items-center justify-between w-full">
                 <a href="/">
                     <img
                         src={headerLogo}
